@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/player"
+            android:gravity="right"
+            android:maxLength="1"
+            android:text="1"
+            android:textSize="60sp"
+            android:textColor="#4F7877"/>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/player"
+            android:gravity="right"
+            android:maxLength="1"
+            android:text="1"
+            android:textSize="60sp"
+            android:textColor="#4F7877"/>
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/player"
+            android:gravity="right"
+            android:maxLength="1"
+            android:text="1"
+            android:textSize="60sp"
+            android:textColor="#4F7877"/>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="30dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RUN!"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#BBFF5E00"
+        android:background="#88FFFFFF"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1 Strike , 2 Ball"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="7dp"
+        android:background="#9FFF"/>
+
+
+
+
+
+</LinearLayout>
