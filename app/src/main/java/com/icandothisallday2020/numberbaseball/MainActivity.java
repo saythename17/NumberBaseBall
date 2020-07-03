@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+        int a=10;
         //Random rnd=new Random();
 //        int h;
 //        while(true) {
